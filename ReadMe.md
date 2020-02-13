@@ -50,13 +50,13 @@ Build a predictive model that is capable of predicting the outcome of an inspect
 
 The inspection results can have any of the following values :
 
-0:’FACILITY CHANGED'
-1:’FAIL'
-2:’FURTHER INSPECTION REQUIRED'
-3:’INSPECTION OVERRULED’
-4:’PASS’
-5:’PASS(CONDITIONAL)’
-6:’SHUT-DOWN’
+0:’FACILITY CHANGED'_
+1:’FAIL'_
+2:’FURTHER INSPECTION REQUIRED'_
+3:’INSPECTION OVERRULED’_
+4:’PASS’_
+5:’PASS(CONDITIONAL)’_
+6:’SHUT-DOWN’_
 
 ## Data Sets:
 
