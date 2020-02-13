@@ -1,4 +1,8 @@
-Problem Description:
+
+# Predictive Modelling for Food Quality Inspection
+
+
+## Problem Description:
 
 The food inspection department conducts regular inspection on food quality for various restaurants in the city. It’s a very well documented procedure and over time some good amount of data has been generated out of these inspections. 
 
@@ -6,43 +10,43 @@ The inspection department would like to predict where they should focus most in 
 
 In this hackathon, MachineHack provides you with a subset of this dataset with information on food quality checks conducted on thousands of facilities that serve food across multiple cities. Your objective as a Data Scientist is to predict whether a facility will pass or fail the inspection based on a number of factors.
 
-Objective:
+## Objective:
 
 Build a predictive model that is capable of predicting the outcome of an inspection conducted in a facility based on the given set of features
 
-Features: 
+## Features: 
 
-ID: A unique id for each inspection
+* ID: A unique id for each inspection
 
-Date: The date at which the inspection was done in a particular facility
+* Date: The date at which the inspection was done in a particular facility
 
-LicenseNo: De-identified license number for a particular facility
+* LicenseNo: De-identified license number for a particular facility
 
-FacilityID: De-identified unique facility id  for a facility
+* FacilityID: De-identified unique facility id  for a facility
 
-FacilityName: The encoded name of a facility
+* FacilityName: The encoded name of a facility
 
-Type: The type of the facility being inspected
+* Type: The type of the facility being inspected
 
-Street: The encoded street where the facility is located
+* Street: The encoded street where the facility is located
 
-City: The encoded city where the facility is located
+* City: The encoded city where the facility is located
 
-State: The encoded state where the facility is located
+* State: The encoded state where the facility is located
 
-LocationID: An encoded location feature.
+* LocationID: An encoded location feature.
 
-Reason: The primary reason for the inspection
+* Reason: The primary reason for the inspection
 
-SectionViolations: Laws violated by the facility
+* SectionViolations: Laws violated by the facility
 
-RiskLevel: The level of risk the facility possesses to the consumers.
+* RiskLevel: The level of risk the facility possesses to the consumers.
 
-Geo_Loc: De-identified geo location of the facility
+* Geo_Loc: De-identified geo location of the facility
 
-Inspection_Results: The result of the inspection
+* Inspection_Results: The result of the inspection
 
-Target:
+## Target:
 
 The inspection results can have any of the following values :
 
@@ -54,11 +58,12 @@ The inspection results can have any of the following values :
 5:’PASS(CONDITIONAL)’
 6:’SHUT-DOWN’
 
-Data Sets:
-Data_Train.xlsx – 147443 rows × 15 columns
-Data_Test.xlsx – 49148 rows × 14 columns
-Sample_Submission.xlsx – 49148 rows × 7 columns
+##Data Sets:
+
+* Data_Train.xlsx – 147443 rows × 15 columns
+* Data_Test.xlsx – 49148 rows × 14 columns
+* Sample_Submission.xlsx – 49148 rows × 7 columns
 
 Data Preview:
 
- 
+![Data](Input/Data_Preview.png)
