@@ -58,12 +58,12 @@ The inspection results can have any of the following values :
 5:’PASS(CONDITIONAL)’
 6:’SHUT-DOWN’
 
-##Data Sets:
+## Data Sets:
 
 * Data_Train.xlsx – 147443 rows × 15 columns
 * Data_Test.xlsx – 49148 rows × 14 columns
 * Sample_Submission.xlsx – 49148 rows × 7 columns
 
-Data Preview:
+## Data Preview:
 
 ![Data](Input/Data_Preview.png)
